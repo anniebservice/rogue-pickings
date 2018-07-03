@@ -1,0 +1,132 @@
+/*****BASE STYLE*****/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    min-width: 1200px;
+}
+
+/*****GRID*****/
+
+.full-width{
+    width: 1200px;
+    margin:0 auto;
+}
+
+.half-width{
+    width: 600px;
+    float: left;
+}
+
+.third-width{
+    width: 379px;
+    float: left;
+    height: 208px;
+    border-top: #eee 1px solid;
+    padding: 30px, 10px;
+
+
+  
+    
+}
+
+/*****HEADER*****/
+
+header{
+    height: 410px;
+    color: #000000;
+    font-size: 30px;
+}
+
+span{
+    color: #77a466;
+
+}
+
+nav{
+    float: right;
+}
+
+
+nav ul li{
+    display: inline-block;
+}
+
+ nav ul li a{
+    font-size: 14px;
+    text-decoration: none;
+    padding-left: 20px;
+    color: #77a466;
+    font-weight: bold;
+
+} 
+
+.main img{
+    border-bottom: #77a466 3px solid;
+    border-top: #77a466 3px solid;
+}
+/*****ABOUT*****/
+
+#about{
+    height: 180px;
+}
+
+#about h4{
+    font-size: 16px;
+    color: #77a466;
+}
+
+
+/*****MENU*****/
+
+#menu .third-width{
+    font-size: 16px;
+    color:#000000;
+    border-bottom: #eee 1px solid;
+    
+    
+
+}
+
+#menu li{
+    text-decoration: none;
+    color: #77a466;
+    list-style: none;
+    padding: 10px 0;
+
+  
+    
+
+}
+    
+
+/*****REVIEWS*****/
+
+#reviews .third-width{
+   border: #eee 1px solid;
+   padding: 10px 30px;
+   line-height: 21px;
+}
+/*****CONTACT*****/
+
+#contact .third-width{
+    border-bottom: #eee 1px solid;
+    border-top: #eee 1px soldi;
+    line-height: 24px;
+    padding: 10px 30px;
+
+}
+
+
+/*****FOOTER*****/
+
+#footer h4{
+text-align: center;
+color: #000000;
+margin: 0 auto;
+clear: both;
+}
+
+span{
+    color: #77a466;
+}
+
